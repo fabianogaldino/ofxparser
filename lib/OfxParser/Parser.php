@@ -40,7 +40,7 @@ class Parser
     public function loadFromString($ofxContent)
     {
         $ofxEncoding = mb_detect_encoding($ofxContent);
-        $ofxContent = mb_convert_encoding($ofxContent, "UTF-8", $ofxEncoding);
+        $ofxContent = mb_convert_encoding($ofxContent, $ofxEncoding, "ISO-8859-1");
 
         $sgmlStart = stripos($ofxContent, '<OFX>');
         $ofxHeader = trim(substr($ofxContent, 0, $sgmlStart));
