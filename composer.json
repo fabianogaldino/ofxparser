@@ -1,5 +1,5 @@
 {
-    "name": "oriatec/ofxparser",
+    "name": "fabianogaldino/ofxparser",
     "description": "Simple OFX file parser",
     "keywords": ["ofx", "open financial exchange", "finance", "parser"],
     "license": "MIT",
@@ -32,7 +32,8 @@
     },
     "autoload":     {
         "psr-0": {
-            "OfxParser": "lib/"
+            Firebase\\JWT\\
+            "FabianoGaldino\\OfxParser": "lib/"
         }
     }
 }
