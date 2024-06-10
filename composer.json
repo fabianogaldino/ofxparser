@@ -32,7 +32,6 @@
     },
     "autoload":     {
         "psr-0": {
-            Firebase\\JWT\\
             "FabianoGaldino\\OfxParser": "lib/"
         }
     }
